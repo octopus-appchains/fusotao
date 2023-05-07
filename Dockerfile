@@ -1,5 +1,5 @@
 # This is the build stage for appchain. Here we create the binary in a temporary image.
-FROM docker.io/paritytech/ci-linux:production as builder
+FROM docker.io/paritytech/ci-linux:1.68.2-buster as builder
 
 WORKDIR /appchain
 COPY . /appchain
